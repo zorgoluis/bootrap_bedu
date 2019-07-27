@@ -10,72 +10,111 @@
 
     <title>Bootstrap</title>
   </head>
-  <body>
-    <div class="container">
-        <header>
-            <!-- <img src="xx.png" alt=""> -->
-            <span>Quartum</span>
+  <body class="container-fluid">
+        <header class="row">
+            <nav class=" col-12 navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+                    Qualitum
+                </a>
+            </nav>
         </header>
         <main>
-            <section class="section_1">
-                <div>cosa de cambio</p></div>
-                <div>cosa 2</div>
-            </section>
-            <section class="section_2">
-                <div>
-                    <div>
-                        <img src="check.png" alt="" class="check">
-                        <p>compra segura</p>
-                    </div>
-                    <div>
-                        <img src="check.png" alt="" class="check">
-                        <p>compra segura</p>
-                    </div>
+            <section class="row justify-content-center border p-5 align-items-center">
+                <div class="col-12 col-md-6 d-flex justify-content-center p-2">
+                    <div style="width: 300px; height: 300px; border: 4px solid;" class="d-flex align-items-center justify-content-center">Informacion general</div>
                 </div>
-                <div>
-                    <div>
-                        <img src="check.png" alt="" class="check">
-                        <p>compra segura</p>
-                    </div>
-                    <div><img src="check.png" alt="" class="check">
-                    <p>compra segura</p></div>
-                </div>
-                <div>
-                    <div>
-                        <img src="check.png" alt="" class="check">
-                        <p>compra segura</p>
-                    </div>
-                    <div>
-                        <img src="check.png" alt="" class="check">
-                        <p>compra segura</p>
-                    </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center p-2">
+                    <div style="width: 300px; height: 150px; border: 4px solid;" class="d-flex align-items-center justify-content-center">Primer llamado a la acción</div>
                 </div>
             </section>
-            <section class="section_3">
-                <figcaption><img src="profile.svg" alt=""></figcaption>
-                <figcaption><img src="profile.svg" alt=""></figcaption>
-                <figcaption><img src="profile.svg" alt=""></figcaption>
+            <section class="row border p-5">
+                    <div class="col-12 col-sm-4 row">
+                        <div class="col-4 p-0 m-0 text-right"><img src="check.png" alt="" width="15px"></div>
+                        <div class="col-6"><p>compra segura</p></div>
+                    </div>
+                    <div class="col-12 col-sm-4 row">
+                        <div class="col-4 p-0 m-0 text-right"><img src="check.png" alt="" width="15px"></div>
+                        <div class="col-6"><p>compra segura</p></div>
+                    </div>
+                    <div class="col-12 col-sm-4 row">
+                        <div class="col-4 p-0 m-0 text-right"><img src="check.png" alt="" width="15px"></div>
+                        <div class="col-6"><p>compra segura</p></div>
+                    </div>
+                    <div class="col-12 col-sm-4 row">
+                        <div class="col-4 p-0 m-0 text-right"><img src="check.png" alt="" width="15px"></div>
+                        <div class="col-6"><p>compra segura</p></div>
+                    </div>
+                    <div class="col-12 col-sm-4 row">
+                        <div class="col-4 p-0 m-0 text-right"><img src="check.png" alt="" width="15px"></div>
+                        <div class="col-6"><p>compra segura</p></div>
+                    </div>
+                    <div class="col-12 col-sm-4 row">
+                        <div class="col-4 p-0 m-0 text-right"><img src="check.png" alt="" width="15px"></div>
+                        <div class="col-6"><p>compra segura</p></div>
+                    </div>
             </section>
-            <section class="section_4">
-                <p>10% antes de xx</p>
-                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam rerum quas totam autem corporis enim quod voluptate, molestias consequatur cumque, ratione quisquam maiores impedit consequuntur laboriosam nam harum magni?</small>
+            <section class="row border">
+                <figcaption class="col-12 col-sm-4 text-center"><img class="img-size p-2" src="profile.svg" alt=""></figcaption>
+                <figcaption class="col-12 col-sm-4 text-center"><img class="img-size p-2" src="profile.svg" alt=""></figcaption>
+                <figcaption class="col-12 col-sm-4 text-center"><img class="img-size p-2" src="profile.svg" alt=""></figcaption>
             </section>
-            <section class="section_5">
-                <div>
-                    <label>$$$</label>
-                    <button type="button">click me</button>
+            <section class="row border p-5 justify-content-center">
+                <div class="col-12 text-center">
+                        <p class="font-weight-bold">10% antes de xx</p>
+                        <small class="text-warning text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam rerum quas totam autem corporis enim quod voluptate, molestias consequatur cumque, ratione quisquam maiores impedit consequuntur laboriosam nam harum magni?</small>
+                </div>
+            </section>
+            <section class="row border p-5">
+                <div class="col-12 text-center">
+                    <p class="font-weight-bold">$$$</p>
+                </div>
+                <div class="col-12 text-center">
+                    <button class="btn btn-lg btn-primary" type="button">click me</button>
                 </div>
             </section>
         </main>
-        <footer>
-            <img src="" alt=""><p>Foother</p>
+        <footer class="row bg-dark text-white">
+            <div class="col-12 text-center">
+                <img src="" alt=""><p>Compra segura</p>
+            </div>
         </footer>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <style>
+        .img-size{
+                width: 100px;
+        }
+        @media (min-width: 576px) {
+            .img-size{
+                width: 100px;
+            }
+        }
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .img-size{
+                width: 150px;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .img-size{
+                width: 200px;
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .img-size{
+                width: 300px;
+            }
+        }
+    </style>
+</body>
 </html>
